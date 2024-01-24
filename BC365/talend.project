@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_rOKvMbq4Ee67HuOidpaKzg" label="BC365" language="java" technicalLabel="BC365" author="_rOKvMrq4Ee67HuOidpaKzg" productVersion="Talend Cloud Data Integration-8.0.1.20231222_1430-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/ChineduAkwu/BC365&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" itemsRelationVersion="1.3" bigData="false">
+    <migrationTask xmi:id="_rQm_MLq4Ee67HuOidpaKzg" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_rOKvMrq4Ee67HuOidpaKzg" login="chineduakwuobi@eval13688.talend.com" firstName="Chinedu" lastName="Akwuobi" type="DI"/>
+</xmi:XMI>
