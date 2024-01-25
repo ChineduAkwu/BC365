@@ -16,8 +16,27 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_NRRXALtPEe61K843j6cDaQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "_dEbX4Lq5Ee6as4D28YxuXQ",
     "version" : "Latest",
     "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_upe44LtPEe61K843j6cDaQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_dEbX4Lq5Ee6as4D28YxuXQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_58TtcLtOEe61K843j6cDaQ - Sat_AIR_Kontogruppe",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 } ]
