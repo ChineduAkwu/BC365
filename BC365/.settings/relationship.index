@@ -43,11 +43,15 @@
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_58TtcLtOEe61K843j6cDaQ - Sat_AIR_Kontogruppe",
+    "id" : "_847BALt5Ee61K843j6cDaQ - Sat_FZS_Kontogruppe",
     "version" : "Latest",
     "type" : "schema"
   }, {
-    "id" : "_dudPQLtcEe61K843j6cDaQ - Sat_AIR_Sachposten",
+    "id" : "_DpXaELt6Ee61K843j6cDaQ - Sat_FZS_Sachkonten",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_HvVJ4Lt6Ee61K843j6cDaQ - Sat_FZS_Sachposten",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -87,6 +91,60 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_qRD-8LuCEe6gl7m7usA-dw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_NRRXALtPEe61K843j6cDaQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dEbX4Lq5Ee6as4D28YxuXQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_DpXaELt6Ee61K843j6cDaQ - Sat_FZS_Sachkonten",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_Xo4R8Lt5Ee61K843j6cDaQ - GL_Account",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_XuimILtaEe61K843j6cDaQ - Sat_AIR_Sachkonten",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_t3mn0LuCEe6gl7m7usA-dw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_NRRXALtPEe61K843j6cDaQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dEbX4Lq5Ee6as4D28YxuXQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_58TtcLtOEe61K843j6cDaQ - Sat_AIR_Kontogruppe",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_847BALt5Ee61K843j6cDaQ - Sat_FZS_Kontogruppe",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_hE45YLt5Ee61K843j6cDaQ - Kontogruppe",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_upe44LtPEe61K843j6cDaQ",
     "version" : "0.1",
     "type" : "job"
@@ -97,6 +155,33 @@
     "type" : "property"
   }, {
     "id" : "_58TtcLtOEe61K843j6cDaQ - Sat_AIR_Kontogruppe",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_dudPQLtcEe61K843j6cDaQ - Sat_AIR_Sachposten",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_xGaGILuCEe6gl7m7usA-dw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_NRRXALtPEe61K843j6cDaQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dEbX4Lq5Ee6as4D28YxuXQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_9QVk0LtgEe61K843j6cDaQ - G_L_Entry",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_HvVJ4Lt6Ee61K843j6cDaQ - Sat_FZS_Sachposten",
     "version" : "Latest",
     "type" : "schema"
   }, {
