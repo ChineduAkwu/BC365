@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:GenericSchemaConnection dataPackage="_Q3Z6Abq8Ee6as4D28YxuXQ" label="Sat_FZS_Debitoren" mappingTypeId="id_MSSQL" mappingTypeUsed="true" name="Sat_FZS_Debitoren" xmi:id="_xpGSkLt5Ee61K843j6cDaQ"/>
+  <TalendMetadata:GenericPackage dataManager="_xpGSkLt5Ee61K843j6cDaQ" name="repository.metadataGenericSchema" xmi:id="_Q3Z6Abq8Ee6as4D28YxuXQ">
+    <ownedElement id="_zwPogLq5Ee6as4D28YxuXQ" label="Sat_AIR_Debitoren" xmi:id="_Q3Z6Arq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="Nr" length="100" name="Nr" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6A7q8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Name" length="100" name="Name" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6BLq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Search_Name" length="100" name="Search_Name" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Bbq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Name2" length="100" name="Name2" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Brq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Address" length="100" name="Address" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6B7q8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Address2" length="100" name="Address2" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6CLq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="City" length="100" name="City" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Cbq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Contact" length="100" name="Contact" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Crq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Phone_No" length="100" name="Phone_No" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6C7q8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Telex_No" length="100" name="Telex_No" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6DLq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Document_Sending_Profile" length="100" name="Document_Sending_Profile" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Dbq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Ship_to_Code" length="100" name="Ship_to_Code" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Drq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Our_Account_No" length="100" name="Our_Account_No" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6D7q8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Territory_Code" length="100" name="Territory_Code" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6ELq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GlobalDimensionCode1" length="100" name="GlobalDimensionCode1" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Ebq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GlobalDimensionCode2" length="100" name="GlobalDimensionCode2" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Erq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Budgeted_Amount" length="100" name="Budgeted_Amount" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6E7q8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Credit_Limit_LCY" length="100" name="Credit_Limit_LCY" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6FLq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Customer_Posting_Group" length="100" name="Customer_Posting_Group" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Fbq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Currency_Code" length="100" name="Currency_Code" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Frq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Language_Code" length="100" name="Language_Code" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6F7q8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="newColumn9" length="100" name="newColumn9" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6GLq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Payment_Terms_Code" length="100" name="Payment_Terms_Code" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Gbq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Salesperson_Code" length="100" name="Salesperson_Code" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Grq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Shipping_Agent_Code" length="100" name="Shipping_Agent_Code" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6G7q8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Invoice_Disc_Code" length="100" name="Invoice_Disc_Code" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6HLq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Customer_Disc_Group" length="100" name="Customer_Disc_Group" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Hbq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Country_Region_Code" length="100" name="Country_Region_Code" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Hrq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Amount" length="100" name="Amount" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6H7q8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Blocked" length="100" name="Blocked" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6ILq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Bill_to_Customer_No" length="100" name="Bill_to_Customer_No" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Ibq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Payment_Method_Code" length="100" name="Payment_Method_Code" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Irq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Prices_Including_VAT" length="100" name="Prices_Including_VAT" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6I7q8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Location_Code" length="100" name="Location_Code" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6JLq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Fax_No" length="100" name="Fax_No" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Jbq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VAT_Registration_No" length="100" name="VAT_Registration_No" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Jrq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Combine_Shipments" length="100" name="Combine_Shipments" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6J7q8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Gen_Bus_Posting_Group" length="100" name="Gen_Bus_Posting_Group" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6KLq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GLN" length="100" name="GLN" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Kbq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Post_Cod" length="100" name="Post_Cod" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Krq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="County" length="100" name="County" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6K7q8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="EORI_Number" length="100" name="EORI_Number" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6LLq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Use_GLN_in_Electronic_Document" length="100" name="Use_GLN_in_Electronic_Document" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Lbq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="E_Mail" length="100" name="E_Mail" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Lrq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Home_Page" length="100" name="Home_Page" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6L7q8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Tax_Area_Code" length="100" name="Tax_Area_Code" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6MLq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VAT_Bus_Posting_Group" length="100" name="VAT_Bus_Posting_Group" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Mbq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Reserve" length="100" name="Reserve" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Mrq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Block_Payment_Tolerance" length="100" name="Block_Payment_Tolerance" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6M7q8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="IC_Partner_Code" length="100" name="IC_Partner_Code" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6NLq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Prepayment" length="100" name="Prepayment" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Nbq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Partner_Type" length="100" name="Partner_Type" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Nrq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Privacy_Blocked" length="100" name="Privacy_Blocked" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6N7q8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Primary_Contact_No" length="100" name="Primary_Contact_No" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6OLq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Contact_Type" length="100" name="Contact_Type" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Obq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Mobile_Phone_No" length="100" name="Mobile_Phone_No" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Orq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Responsibility_Center" length="100" name="Responsibility_Center" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6O7q8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Load_dts" length="50" name="Load_dts" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATETIME" talendType="id_Date" xmi:id="_Q3Z6PLq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Mandant" length="100" name="Mandant" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Pbq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="src" length="100" name="src" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6Prq8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="HK" length="100" name="HK" sourceType="VARCHAR" talendType="id_String" xmi:id="_Q3Z6P7q8Ee6as4D28YxuXQ" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d7836086-7226-4259-9cde-a34db75f2773"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ut/ziaow8UUt6Sc/3sA5gcqIV8idOhWWF1Sow/9FjFujNOjEB29/kMuUTtLkXz+Xp3ANq1gx96fo&#13;
+aAwo8B4yuA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_47e2ef27-0679-4896-900c-12ea85befe4a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>eD06h99AiwuJL/KrhzQO5MsrSQEt9BW8p7ByouKtda8jLtR75F4aWW66arC5lMkGm2r6Lgbvd2PP&#13;
+9DpfdPOncw==</DigestValue></Reference></SignedInfo><SignatureValue>B8QcPMxrd+xz+5EOPAWDL01uyxUUFrhyC6CN+n/pKL02SifTK8zciFuxlqMdUR8NAsq7vuE5JVS8&#13;
+pQqPsr8s5+dJSsYlEzZoc/VxTMUfa0sKGA6NMQebK+u35U5ppzii5JC5MWHKF6DakigRR3oPBFLr&#13;
+TrpaY3nDfoky8ruSNHm7hAX3LS0GE73jc3Dzt1L8ZbikgCtiU1MWySi10sUW9aNeiF07BgBs5G3V&#13;
+bXpTHeeViXSMwDlQxx5i5pj5vhYufRUkUH/pQ9TbZ6ISgmJ0jininCKQPXfIORBhNcIjjyGPeoB6&#13;
+pCnt+xcZGQ1dIfd8FLofxe9w/SdiiF4cFpRETw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_47e2ef27-0679-4896-900c-12ea85befe4a" Target="#_d7836086-7226-4259-9cde-a34db75f2773"><Timestamp>2024-01-25 12:04:38</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

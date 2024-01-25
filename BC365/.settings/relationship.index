@@ -11,6 +11,67 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_6o6ycLtnEe61K843j6cDaQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_NRRXALtPEe61K843j6cDaQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dEbX4Lq5Ee6as4D28YxuXQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_9QVk0LtgEe61K843j6cDaQ - G_L_Entry",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_dudPQLtcEe61K843j6cDaQ - Sat_AIR_Sachposten",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_75vmgLt6Ee61K843j6cDaQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_dEbX4Lq5Ee6as4D28YxuXQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_58TtcLtOEe61K843j6cDaQ - Sat_AIR_Kontogruppe",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_dudPQLtcEe61K843j6cDaQ - Sat_AIR_Sachposten",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_BZkksLtZEe61K843j6cDaQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_NRRXALtPEe61K843j6cDaQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dEbX4Lq5Ee6as4D28YxuXQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_XuimILtaEe61K843j6cDaQ - Sat_AIR_Sachkonten",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_c3cUsLrNEe61K843j6cDaQ",
     "version" : "0.1",
     "type" : "job"
@@ -31,6 +92,29 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_dEbX4Lq5Ee6as4D28YxuXQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_58TtcLtOEe61K843j6cDaQ - Sat_AIR_Kontogruppe",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_dudPQLtcEe61K843j6cDaQ - Sat_AIR_Sachposten",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_yJ5SULtUEe61K843j6cDaQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_NRRXALtPEe61K843j6cDaQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "_dEbX4Lq5Ee6as4D28YxuXQ",
     "version" : "Latest",
     "type" : "property"
