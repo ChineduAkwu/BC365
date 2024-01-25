@@ -141,7 +141,7 @@
   <node componentName="tCreateTable" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tCreateTable_2"/>
     <elementParameter field="CLOSED_LIST" name="DBTYPE" value="MSSQL"/>
-    <elementParameter field="CLOSED_LIST" name="TABLEACTION" value="CREATE_IF_NOT_EXIST"/>
+    <elementParameter field="CLOSED_LIST" name="TABLEACTION" value="DROP_IF_EXIST_CREATE"/>
     <elementParameter field="CHECK" name="CASESENSITIVE" show="false" value="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="TEXT" name="HOST" show="false" value="&quot;fmgdwh.database.windows.net&quot;"/>
@@ -199,7 +199,7 @@
     <elementParameter field="COMPONENT_LIST" name="CONNECTION_SNOWFLAKE" show="false" value=""/>
     <elementParameter field="TEXT" name="ACCOUNT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="TABLE" value="&quot;Sat_AIR_Kontogruppe&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;Sat_EOT_Kontogruppe&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_58TtcLtOEe61K843j6cDaQ - Sat_AIR_Kontogruppe"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
@@ -213,7 +213,7 @@
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="VERTICA_CREATE_PROJECTION" show="false" value="true"/>
-    <elementParameter field="TEXT" name="LABEL" value="Sat_AIR_Kontogruppe"/>
+    <elementParameter field="TEXT" name="LABEL" value="Sat_EOT_Kontogruppe"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="Sat_AIR_Kontogruppe" name="tCreateTable_2">
       <column comment="" key="false" length="20" name="Sachkonto" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -229,7 +229,7 @@
   <node componentName="tCreateTable" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tCreateTable_1"/>
     <elementParameter field="CLOSED_LIST" name="DBTYPE" value="MSSQL"/>
-    <elementParameter field="CLOSED_LIST" name="TABLEACTION" value="CREATE_IF_NOT_EXIST"/>
+    <elementParameter field="CLOSED_LIST" name="TABLEACTION" value="DROP_IF_EXIST_CREATE"/>
     <elementParameter field="CHECK" name="CASESENSITIVE" show="false" value="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="TEXT" name="HOST" show="false" value="&quot;fmgdwh.database.windows.net&quot;"/>
@@ -287,7 +287,7 @@
     <elementParameter field="COMPONENT_LIST" name="CONNECTION_SNOWFLAKE" show="false" value=""/>
     <elementParameter field="TEXT" name="ACCOUNT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="TABLE" value="&quot;Sat_AIR_Sachkonten&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;Sat_EOT_Sachkonten&quot;"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
     <elementParameter field="CLOSED_LIST" name="CREATE_TABLE_TYPE" show="false" value="SET"/>
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;prompt=false&quot;"/>
@@ -371,7 +371,7 @@
     <elementParameter field="COMPONENT_LIST" name="CONNECTION_SNOWFLAKE" show="false" value=""/>
     <elementParameter field="TEXT" name="ACCOUNT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="TABLE" value="&quot;Sat_AIR_Sachposten&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;Sat_EOT_Sachposten&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_dudPQLtcEe61K843j6cDaQ - Sat_AIR_Sachposten"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
@@ -466,13 +466,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5adeea1f-982b-4500-a239-166c2850e15f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jUeinB9mjBm5f0fGCUhgGtYCYkeVkYBolhRhGGi30Wu31n2k+RfO5+3T5CbKQDYC8fD7qwsZHmFr&#13;
-pdtCTaeb/Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_170ffdf7-27ff-40f4-a2c7-a4c0b3c399eb"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>HLB5bTHx8pWmaax/QJWUFtfaaLZxcrM1OyIKpbWqcRv8mKyvK27CTCeHzJ47r2xe0/xSUFA379WG&#13;
-3xPevT7SqQ==</DigestValue></Reference></SignedInfo><SignatureValue>FzX/JuQrPjHX7DDNikwhDxjgRPKPyRIsrcPiWEq5djj1HpUSKmMHaQh9tGq48ZbLgAgmlFeOqEpI&#13;
-LYZka4uhA2Tetg0aZPam8h3YZNJzCD++ZV3YFn74/barUY+GtKTm+uDceIj/iIanHUGKWluRl75G&#13;
-KllHxmKCn4wkZBP1I4aqpH8ZSYEUqIpvCUZgNfOhXURJSatItrWDt1SGQ/QvG9HIbFNdogPp6rM4&#13;
-/DI/7KOE9+d/7NkBn4GHzDF/hRBjUb1HzeZgxg+Tv3wCJ1QHDttGrCxoGcXcAe2CPDd11lycstW5&#13;
-ET6NbP1nkjPFeTMFli4IC3fG0MRvZm3N9kx/ew==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_260347b2-4114-4087-a3c6-76439fc2f55e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zWMUs5N50Cl1pCnVUa14PhvdwWhkhL8T7vxMk1ngEUUc15AShx5CH5Tl5CdPWZUKe2xGBWDhOwRy&#13;
+n6TzWTNNKw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a6068d29-db7e-4f74-9e81-5f512d68a13b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>xbzu5I0LSkF+1l8Uha6tXlF+WZetfAmNw01yojdUD8LhIbnsfewBm6VsXgPumUa8/f3kWqUf5bDK&#13;
+1e5ppo+d5w==</DigestValue></Reference></SignedInfo><SignatureValue>mUEIUad90A0D2O1ETuABDCBIkpG1ieqmtklVxyd7XDZ7tumHc9HKb8B4VEvlSfpkTCT83SxB6/cG&#13;
++xuUDnZw23ZXdF/ixPz0rRNjX6wqgxz1nHAJY2kNS8ur1YlBluETU3o/Ymswv9Puf9LOoKImURF7&#13;
+Vc3ZwsRoDxvxFbvis6ON9p2r9tJCqzPpriV7bvcqmbAr789fqiyJiIjitdQcpOwnsbK4vj1OcgJK&#13;
+A9m8whqkyho/hz+wFdYC5AsQuxOcHOvfLc2wiLv+7XBM0MjSCEPXPIieK4VruEx/mNOS7iGMjkC0&#13;
+AbYBv0u811QDQmuZpowbYBEU8UtCBOvVXhFMYQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -494,4 +494,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_170ffdf7-27ff-40f4-a2c7-a4c0b3c399eb" Target="#_5adeea1f-982b-4500-a239-166c2850e15f"><Timestamp>2024-01-25 15:24:59</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a6068d29-db7e-4f74-9e81-5f512d68a13b" Target="#_260347b2-4114-4087-a3c6-76439fc2f55e"><Timestamp>2024-01-25 15:28:05</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
