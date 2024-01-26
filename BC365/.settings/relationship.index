@@ -236,6 +236,33 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_CcEBwLwwEe6ejN_gL8BppQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_NRRXALtPEe61K843j6cDaQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dEbX4Lq5Ee6as4D28YxuXQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_58TtcLtOEe61K843j6cDaQ - Sat_AIR_Kontogruppe",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_847BALt5Ee61K843j6cDaQ - Sat_FZS_Kontogruppe",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_hE45YLt5Ee61K843j6cDaQ - Kontogruppe",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_DzFGALuWEe6gl7m7usA-dw",
     "version" : "0.1",
     "type" : "job"
