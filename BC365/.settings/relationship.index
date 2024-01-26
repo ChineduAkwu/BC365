@@ -198,6 +198,25 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_XJtlQLwfEe64V7Hxrn3Fmw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_NRRXALtPEe61K843j6cDaQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_-cnZYLweEe64V7Hxrn3Fmw - Kontenschemata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_GRP94LwgEe64V7Hxrn3Fmw - Sat_EYE_Kontenschemata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_c3cUsLrNEe61K843j6cDaQ",
     "version" : "0.1",
     "type" : "job"
