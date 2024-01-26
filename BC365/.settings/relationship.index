@@ -307,4 +307,23 @@
     "version" : "Latest",
     "type" : "schema"
   } ]
+}, {
+  "baseItem" : {
+    "id" : "_z2IYULwdEe64V7Hxrn3Fmw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_NRRXALtPEe61K843j6cDaQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_dEbX4Lq5Ee6as4D28YxuXQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_XuimILtaEe61K843j6cDaQ - Sat_AIR_Sachkonten",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
 } ]
