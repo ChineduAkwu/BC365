@@ -244,6 +244,25 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_wbqckLwdEe64V7Hxrn3Fmw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_dEbX4Lq5Ee6as4D28YxuXQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_58TtcLtOEe61K843j6cDaQ - Sat_AIR_Kontogruppe",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_dudPQLtcEe61K843j6cDaQ - Sat_AIR_Sachposten",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_xGaGILuCEe6gl7m7usA-dw",
     "version" : "0.1",
     "type" : "job"
