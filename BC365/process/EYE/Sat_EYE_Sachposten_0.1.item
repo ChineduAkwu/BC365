@@ -185,7 +185,7 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select &#13;&#10;[Entry No_]&#13;&#10;      ,[G_L Account No_]&#13;&#10;      ,[Posting Date]&#13;&#10;      ,[Document Type]&#13;&#10;      ,[Document No_]&#13;&#10;      ,[Description]&#13;&#10;      ,[Bal_ Account No_]&#13;&#10;      ,[Amount]&#13;&#10;      ,[Global Dimension 1 Code]&#13;&#10;      ,[Global Dimension 2 Code]&#13;&#10;      ,[User ID]&#13;&#10;       ,[Quantity]&#13;&#10;      ,[VAT Amount]&#13;&#10;      ,[Business Unit Code]&#13;&#10;      ,[Gen_ Posting Type]&#13;&#10;      ,[Gen_ Bus_ Posting Group]&#13;&#10;      ,[Gen_ Prod_ Posting Group]&#13;&#10;      ,[Bal_ Account Type]&#13;&#10;      ,[Transaction No_]&#13;&#10;      ,[Debit Amount]&#13;&#10;      ,[Credit Amount]&#13;&#10;      ,[Document Date]&#13;&#10;      ,[External Document No_]&#13;&#10;      ,[No_ Series]&#13;&#10;      ,[Tax Area Code]&#13;&#10;      ,[Tax Liable]&#13;&#10;      ,[Tax Group Code]&#13;&#10;      ,[Use Tax]&#13;&#10;      ,[VAT Bus_ Posting Group]&#13;&#10;      ,[VAT Prod_ Posting Group]&#13;&#10;      ,[IC Partner Code]&#13;&#10;      ,[Reversed]&#13;&#10;      ,[Reversed by Entry No_]&#13;&#10;      ,[Reversed Entry No_]&#13;&#10;      ,[Dimension Set ID]&#13;&#10;      ,[VAT Reporting Date]&#13;&#10;      ,[Prod_ Order No_]  &#13;&#10;FROM [production_bc_de].[dbo].[EOTWUG$G_L Entry$437dbf0e-84ff-417a-965d-ed2bb9650972]&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select &#13;&#10;[Entry No_]&#13;&#10;      ,[G_L Account No_]&#13;&#10;      ,[Posting Date]&#13;&#10;      ,[Document Type]&#13;&#10;      ,[Document No_]&#13;&#10;      ,[Description]&#13;&#10;      ,[Bal_ Account No_]&#13;&#10;      ,[Amount]&#13;&#10;      ,[Global Dimension 1 Code]&#13;&#10;      ,[Global Dimension 2 Code]&#13;&#10;      ,[User ID]&#13;&#10;       ,[Quantity]&#13;&#10;      ,[VAT Amount]&#13;&#10;      ,[Business Unit Code]&#13;&#10;      ,[Gen_ Posting Type]&#13;&#10;      ,[Gen_ Bus_ Posting Group]&#13;&#10;      ,[Gen_ Prod_ Posting Group]&#13;&#10;      ,[Bal_ Account Type]&#13;&#10;      ,[Transaction No_]&#13;&#10;      ,[Debit Amount]&#13;&#10;      ,[Credit Amount]&#13;&#10;      ,[Document Date]&#13;&#10;      ,[External Document No_]&#13;&#10;      ,[No_ Series]&#13;&#10;      ,[Tax Area Code]&#13;&#10;      ,[Tax Liable]&#13;&#10;      ,[Tax Group Code]&#13;&#10;      ,[Use Tax]&#13;&#10;      ,[VAT Bus_ Posting Group]&#13;&#10;      ,[VAT Prod_ Posting Group]&#13;&#10;      ,[IC Partner Code]&#13;&#10;      ,[Reversed]&#13;&#10;      ,[Reversed by Entry No_]&#13;&#10;      ,[Reversed Entry No_]&#13;&#10;      ,[Dimension Set ID]&#13;&#10;      ,[VAT Reporting Date]&#13;&#10;      ,[Prod_ Order No_]  &#13;&#10;FROM [production_bc_de].[dbo].[EYELTD$G_L Entry$437dbf0e-84ff-417a-965d-ed2bb9650972]&quot;"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -320,7 +320,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_DzFGALuWEe6gl7m7usA-dw-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_7S99ULwdEe64V7Hxrn3Fmw-tMap_2-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
@@ -372,7 +372,7 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables name="Var" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="&quot;EOTWUG&quot;" name="Mandant" type="id_String"/>
+        <mapperTableEntries expression="&quot;EYE LTD&quot;" name="Mandant" type="id_String"/>
         <mapperTableEntries expression="&quot;BC365&quot;" name="src" type="id_String"/>
         <mapperTableEntries expression="TalendDate.getCurrentDate() " name="Load_dts" type="id_Date"/>
         <mapperTableEntries expression="&quot;&quot;" name="HK" type="id_String"/>
@@ -470,7 +470,7 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:jMZIrSHHHsfahNuKTnyJTKNf5ZZUjasaGMPyMi4r"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Sat_EOT_Sachposten&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Sat_EYE_Sachposten&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -842,13 +842,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1702ad0e-dc4b-41b0-ba26-b0bf5d31404d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6Fc55avZ1S0jkJLhHHXRFXMMXQD9vTz9Y17ArXjWtvJfTY5b66uF+C7YtyPvmhwPjmQDPLHVmD4Q&#13;
-aANCkQpjfQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2f49eec3-4ee2-4484-85fb-8efe6e9e82cd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>WgzM4mIkTj4RvxqAfHNB8zXAJqdCwlXqU5fexYOKkoIufqE3YFt81ZL6bA/AjXR2hL7kWg2+pC1/&#13;
-m4/TEGsl9Q==</DigestValue></Reference></SignedInfo><SignatureValue>jUY+RNHZXxaIjRmhb13n91I7X09t3S6W2pyGTBeQU6A8fD7Mk9RsPRzs86rQ5HUrOq3Sb+mPQ6uS&#13;
-A+ubHwbkeGMF7muXuduCvRGDmeGRpi6U/Ubsm3yUDwC4XToNtIY6GVHqD5AGHWvY88Yt3oZ9hONK&#13;
-ZJdeS/1Mng5EXq6gP7Swphl4fX/bTue5PrFnv2WQUxuc108vHCi19YYfQmynpJIoAhO0Vnn06EdG&#13;
-dji5Yzg5pRH7uzUq2Fnb0vmCYfPe71EsMhMgizkNwqZBzeWWARK9RcAIVR0w3wHJM/uz8vtJBhzd&#13;
-sLY0206si7QnjCtHtNguaby60PHem+q3SySUwg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a5541a1a-9453-415d-838c-422582e12632"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>lY4rsjFgCTc8KPlpI5KelzZ0GUl08vg7LIR1FQBdqKqUuUmHNQQG3EDvXjwKhQZyLi1E9Fz63Nc2&#13;
+ofJjsTbdig==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f185a0ce-c3fb-46f5-93c2-727b2e1aea77"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>P/678s5Q6kzSUppJ63INmhT6zvf1OtuW5ionjmPC41XNr7XDoxmEjTEuG9PAq92XE1xfrnJW+9Gl&#13;
+1Z8JYcd5Dw==</DigestValue></Reference></SignedInfo><SignatureValue>AcJp3Mx7nYwbMe5sE6ozkSOkJdh1DkwE6Iyj2gwuedgAsLnYXmeOkRCND4kdXfBRH/euB3QK0Wvu&#13;
+CNCfx2pN2TPv2ui0hsW+m81OJuXRFc1/V+whXV61jkSOFss53OYsynGHQO01MrhF7jD0x3FdBsJh&#13;
+FYgTDx/xKThI2vK40/iPyBrAS/4+eMkwSi7MkSDb1xW3GE+ccYAMUCUBY/oJrHT4d9+4t+Gd7XID&#13;
+9CxG7qSUHjT0UoHJxMaXZJvBdWfrnksSBf1WGB6sHB520Ciiu+wI4Us2uyiJmpxXO4nYaXSCCsUj&#13;
+gIzaLRRZyfqRz6tKwX+ZbFuNGq+1HWB2WSYK8g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -870,4 +870,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2f49eec3-4ee2-4484-85fb-8efe6e9e82cd" Target="#_1702ad0e-dc4b-41b0-ba26-b0bf5d31404d"><Timestamp>2024-01-26 07:38:46</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f185a0ce-c3fb-46f5-93c2-727b2e1aea77" Target="#_a5541a1a-9453-415d-838c-422582e12632"><Timestamp>2024-01-26 08:14:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
