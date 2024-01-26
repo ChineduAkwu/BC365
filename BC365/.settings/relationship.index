@@ -35,6 +35,10 @@
     "id" : "_58TtcLtOEe61K843j6cDaQ - Sat_AIR_Kontogruppe",
     "version" : "Latest",
     "type" : "schema"
+  }, {
+    "id" : "_TWZ1QLwrEe6ejN_gL8BppQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
